@@ -1,0 +1,163 @@
+.background_image_with_name_box{
+	background-image: url("../images/image-2.jpg");
+	padding: 30px;
+	margin: 30px;
+	height: 500px;
+}
+.main{
+	padding: 20px 40px;
+}
+body{
+	background-color: lightgray;
+
+}
+.name_box{
+	/*width: 20px;*/
+	border: 2px solid black;
+	display: inline-block;
+	padding: 50px;
+	margin: 50px;
+	background-image: url("../images/banner_image.png");
+	opacity: 0.8;
+
+}
+@font-face {
+	font-family: 'AlexBrush-Regular';
+	src: url('../fonts/AlexBrush-Regular.eot') format('embedded-opentype');
+	src: url('../fonts/AlexBrush-Regular.ttf');
+	src: url('../fonts/AlexBrush-Regular.woff'); 
+	font-weight: normal;
+	font-style: normal;
+}
+h1{
+	color: white;
+	font-family: 'AlexBrush-Regular';
+}
+.name_box h1 i{/*
+	width: 2px;
+	height: 2px;*/
+	color: white;
+	-webkit-animation: rotation 2s infinite linear;
+
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(359deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg);
+	}
+}
+.button {
+	background-color: #e7e7e7;
+	border: 2px solid black;
+	border-radius: 30px;
+	color: black;
+	padding: 20px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 20px;
+	cursor: pointer;
+	background-color: red;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+	animation-name: example;
+	animation-duration: 10s;
+}
+@-webkit-keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+	from {background-color: red;}
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.row{
+	padding: 10px;
+	margin: 10px;
+}
+p{
+	color: white;
+}
+@media only screen and (max-width: 1024px) {
+	.background_image_with_name_box{
+		padding: 10px;
+		margin: 10px;
+		height: 200px;
+	}
+	.name_box{
+		border: 1px solid black;
+		display: inline-block;
+		padding: 20px;
+		margin: 20px;
+	}
+
+	.button {
+		background-color: #e7e7e7;
+		border: 1px solid black;
+		border-radius: 15px;
+		color: black;
+		padding: 10px 16px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		margin: 0 10px;
+		cursor: pointer;
+		background-color: red;
+		-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+		animation-name: example;
+		animation-duration: 10s;
+	}
+	h1{
+		font-size: 20px;
+		font-weight: bolder;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.background_image_with_name_box{
+		padding: 20px;
+		margin: 20px;
+		height: 300px;
+	}
+	.name_box{
+		border: 2px solid black;
+		display: inline-block;
+		padding: 30px;
+		margin: 30px;
+	}
+
+	.button {
+		background-color: #e7e7e7;
+		border: 2px solid black;
+		border-radius: 30px;
+		color: black;
+		padding: 15px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 5 20px;
+		cursor: pointer;
+		background-color: red;
+		-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+		animation-name: example;
+		animation-duration: 10s;
+	}
+	h1{
+		font-size: 26px;
+		font-weight: bolder;
+	}
+}

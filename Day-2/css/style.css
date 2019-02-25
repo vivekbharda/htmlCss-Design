@@ -1,0 +1,144 @@
+
+@font-face {
+	font-family: 'work_sansbold';
+	src: url('../fonts/worksans-bold-webfont.eot');
+	src: url('../fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+
+@font-face {
+	font-family: 'work_sansregular';
+	src: url('../fonts/worksans-regular-webfont.eot');
+	src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body *{
+	box-sizing: border-box;
+}
+.main{
+	padding: 15px;
+	background-color: lightblue;
+}
+caption{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: lightgray;
+	caption-side: top;
+	margin-bottom: 15px;
+	font-family: 'work_sansbold';
+	font-size: 38px;
+	color: black;
+	padding: 10px;
+}
+table {
+	align-content: center;
+	font-family: work, sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+	/*margin-top: 20px;*/
+}
+th{
+	font-family: 'work_sansbold';
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+td{
+	font-family: 'work_sansregular';
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+form{
+	width: 630px;
+	max-width: 100%;
+	background-color: lightpink;
+	display: table;
+	vertical-align: middle;
+	/*margin-top: 15px;*/
+	padding: 15px;
+	margin: 15px auto 0;
+}
+.input_text{
+	width: 100%;
+	height: 25px;
+	/*padding: 5px;*/
+	border-radius: 10px;
+	margin-top: 10px;
+	/*display: block;*/
+}
+.input_group{
+
+	margin-top: 5px;
+	padding: 5px;
+	/*display: block;*/
+
+}
+.radio_box{
+	/*width: 100%;*/
+	/*padding: 5px;*/
+	font-family: 'work_sansregular';
+	font-size: 20px;
+
+}
+.check_box{
+	/*width: 100%;*/
+	/*padding: 5px;*/
+}
+label{
+	font-family: 'work_sansbold';
+	font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-family: 'work_sansbold';
+}
+h4{
+	margin-top: 5px;
+}
+
+#loader {
+	position: absolute;
+	content: url(../images/loading.gif);
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin:auto;
+}
+#myDiv{
+	display: none;
+}
+input[type="checkbox"] + img {
+	display: none;
+}
+input[type="checkbox"]:checked + img{
+	display: block;
+}
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+button img{
+	height: 20px;
+	width: 20px;
+/*	padding: 5px;
+	margin: 10px;*/
+}

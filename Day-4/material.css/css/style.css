@@ -1,0 +1,52 @@
+	h1{
+		text-align: center;
+		font-size: 48px;
+		color: #6200ee;
+		font-weight: bold;
+	}
+	.mdc-card{
+		margin: 20px 50px;
+		padding: 20px 50px;
+		background-color: #93b9b1;
+	}
+	.mdc-switch{
+		margin-top: 10px;
+	}
+	.button1{
+		background-color: lightpink;
+		padding: 10px;
+		color: black;
+	}
+	.button2{
+		background-color: lightblue;
+		padding: 10px;
+		color: black;
+	}
+	.button3{
+		background-color: white;
+		padding: 10px;
+		color: black;
+	}
+	.ripple {
+		background-position: center;
+		transition: background 1s;
+	}
+	.ripple:hover {
+		background: #000 radial-gradient(circle, transparent 10%, #000 1%) center/500%;
+	}
+	.ripple:active {
+		background-color: red;
+		background-size: 100%;
+		transition: background 0.5s;
+	}
+	.mdc-tab-bar{
+		/*margin:10px;*/
+		padding: 5px;
+	}
+
+	.js-panel {
+  display: none;
+}
+.js-panel.is-active {
+  display: block;
+}

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100px;
+}
+.mdc-top-app-bar{
+  background-color: #fff;
+  color: gray;
+}
+
+.mdc-drawer{
+  background-color: black;
+}
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+  padding: 18px;
+}
+
+.app-bar {
+  position: absolute;
+}
